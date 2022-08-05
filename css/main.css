@@ -34,6 +34,17 @@
   margin: -1px;
 }
 
+.addres__link, .addres__link--color, .addres__link--wrap, .project__link, .nav__link--contacts, .nav__link, .logo {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.invitation__list, .addres__list, .project, .filters, .clients__list, .socials, .team__list, .about__list, .description, .benefits__list, .nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -64,17 +75,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-.link {
-  text-decoration: none;
-  color: currentColor;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
 /* Base styles */

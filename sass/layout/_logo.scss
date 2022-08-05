@@ -1,4 +1,5 @@
 .logo {
+  @extend %reset-link;
    margin-right: 93px;
  
    font-family: var(--secondary-font);

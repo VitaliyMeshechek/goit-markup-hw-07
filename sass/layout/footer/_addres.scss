@@ -5,6 +5,8 @@
  }
  
  .addres__link--wrap {
+  @extend %reset-link;
+
    font-family: var(--secondary-font);
    font-size: 26px;
    letter-spacing: 0.03em;
@@ -16,10 +18,14 @@
  }
  
  .addres__list {
+  @extend %reset-list;
+  
    margin: 0;
  }
  
  .addres__link--color {
+  @extend %reset-link;
+
    display: block;
    margin-top: 20px;
  
@@ -37,6 +43,8 @@
  }
  
  .addres__link {
+  @extend %reset-link;
+
    display: flex;
    margin-top: 9px;
    font-style: normal;

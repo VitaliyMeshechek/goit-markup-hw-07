@@ -3,6 +3,7 @@
  }
  
  .nav__list {
+  @extend %reset-list;
    display: flex;
    gap: 50px;
    margin: 0;
@@ -22,6 +23,8 @@
  }
 
  .nav__link {
+  @extend %reset-link;
+
    font-weight: 500;
    font-size: 14px;
    letter-spacing: 0.02em;
@@ -35,6 +38,8 @@
  }
 
  .nav__link--contacts {
+  @extend %reset-link;
+
    display: flex;
    padding-right: 0;
    font-weight: 500;

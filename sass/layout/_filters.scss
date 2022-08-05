@@ -1,4 +1,6 @@
 .filters {
+  @extend %reset-list;
+  
    display: flex;
    gap: 8px;
    margin-top: 0;

@@ -18,6 +18,8 @@
  }
  
  .clients__list {
+  @extend %reset-list;
+  
    display: flex;
    gap: 30px;
    justify-content: center;

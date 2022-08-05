@@ -1,6 +1,8 @@
 // utils styles
 @import './utils/variables';
 @import './utils/visualy-hidden';
+@import './utils/utility-class';
+
 
 // base styles
 @import './base/base';
@@ -31,7 +33,7 @@
 @import './layout/footer/invitation';
 @import './layout/footer/forms';
 @import './layout/footer/button';
-@import './layout/backdrop';
+@import './layout/backdrop-modal';
 
 
 
