@@ -1,0 +1,29 @@
+.description {
+   display: flex;
+   gap: 30px;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ 
+ .description__box {
+   display: flex;
+   max-width: 270px;
+   flex-direction: column;
+   flex-wrap: nowrap;
+ }
+ 
+ .description__title--bottom {
+   display: flex;
+   margin-bottom: 10px;
+   font-size: 14px;
+   line-height: calc(16 / 14);
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+ }
+ 
+ .description__text {
+   font-size: 14px;
+   line-height: calc(24 / 14);
+   letter-spacing: 0.03em;
+   color: var(--grey-txt-cl);
+ }

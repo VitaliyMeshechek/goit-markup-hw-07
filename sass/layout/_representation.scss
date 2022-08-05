@@ -1,0 +1,24 @@
+.representation {
+   padding: 20px 24px;
+   border: 1px solid #eeeeee;
+   border-top: none;
+   width: 100%;
+   background-color: var(--additional-bg-cl);
+ }
+ 
+ .representation__title {
+   margin-bottom: 4px;
+ 
+   font-size: 18px;
+   line-height: calc(36 / 18);
+   letter-spacing: 0.06em;
+ }
+ 
+ .representation__text {
+   line-height: calc(30 / 16);
+   letter-spacing: 0.03em;
+   color: var(--grey-txt-cl);
+ 
+   margin-top: 0;
+   margin-bottom: 0;
+ }

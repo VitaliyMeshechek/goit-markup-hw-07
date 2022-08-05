@@ -1,0 +1,48 @@
+.about {
+   padding-bottom: 94px;
+ 
+   background-color: var(--additional-bg-cl);
+ }
+ 
+ .about__title--indent {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+ 
+   font-size: 36px;
+   line-height: calc(42 / 36);
+   text-align: center;
+   letter-spacing: 0.03em;
+ }
+ 
+ .about__list {
+   display: flex;
+   gap: 30px;
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ 
+ .about__item {
+   position: relative;
+ }
+ 
+ .about__img {
+   display: block;
+ }
+ 
+ .about__container {
+   position: absolute;
+   background-color: rgba(47, 48, 58, 0.8);
+   width: 100%;
+   transform: translateY(-70px);
+ }
+ 
+ .about__title {
+   display: flex;
+   justify-content: center;
+   padding-top: 27px;
+   padding-bottom: 27px;
+   font-size: 14px;
+   letter-spacing: 0.03em;
+   color: var(--white-txt-cl);
+ }
