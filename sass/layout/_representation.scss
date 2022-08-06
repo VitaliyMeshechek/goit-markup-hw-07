@@ -7,16 +7,14 @@
  }
  
  .representation__title {
+  @include fonts(18px, 36px, 700, 0.06em);
+
    margin-bottom: 4px;
- 
-   font-size: 18px;
-   line-height: calc(36 / 18);
-   letter-spacing: 0.06em;
  }
  
  .representation__text {
-   line-height: calc(30 / 16);
-   letter-spacing: 0.03em;
+  @include fonts(16px, 30px);
+
    color: var(--grey-txt-cl);
  
    margin-top: 0;

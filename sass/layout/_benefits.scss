@@ -7,15 +7,15 @@
 
  .benefits__list {
   @extend %reset-list;
+  @include centeredFlex(flex); 
   
-   display: flex;
    gap: 30px;
-   justify-content: center;
    margin: 0;
  }
  
  .benefits__item {
-   display: flex;
+  @include justFlex(flex);
+  
    padding: 25px 100px;
    background-color: var(--grey-bg-additional-cl);
    margin-bottom: 30px;

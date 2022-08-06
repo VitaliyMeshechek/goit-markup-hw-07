@@ -1,19 +1,18 @@
 .invitation {
-   display: flex;
+  @include justFlex(flex);
+
    flex-direction: column;
    align-items: baseline;
  }
  
  .invitation__title {
-   display: flex;
+   @include justFlex(flex);
+   @include fonts(14px, 16px, 700);
+
    margin-bottom: 20px;
    font-family: 'Roboto';
    font-style: normal;
-   font-weight: 700;
-   font-size: 14px;
    text-transform: uppercase;
-   line-height: calc(16 / 14);
-   letter-spacing: 0.03em;
    color: var(--white-txt-cl);
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -25,22 +24,19 @@
  
  .invitation__list {
   @extend %reset-list;
-  
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  @include centeredFlex(flex);
+
    gap: 10px;
    margin: 0;
  }
  
  .invitation__link {
-   display: flex;
+  @include centeredFlex(flex);
+
    width: 44px;
    height: 44px;
    background-color: rgba(255, 255, 255, 0.1);
    border-radius: 50%;
-   align-items: center;
-   justify-content: center;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
    &:hover,

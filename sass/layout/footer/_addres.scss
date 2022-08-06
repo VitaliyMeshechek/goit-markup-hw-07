@@ -6,10 +6,9 @@
  
  .addres__link--wrap {
   @extend %reset-link;
+  @include fonts(26px, 31px, 700);
 
    font-family: var(--secondary-font);
-   font-size: 26px;
-   letter-spacing: 0.03em;
    color: var(--additional-txt-cl);
  }
  
@@ -25,14 +24,11 @@
  
  .addres__link--color {
   @extend %reset-link;
+  @include fonts(14px, 24px);
 
    display: block;
    margin-top: 20px;
- 
    font-style: normal;
-   font-size: 14px;
-   line-height: calc(24 / 14);
-   letter-spacing: 0.03em;
    color: var(--white-txt-cl);
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -44,13 +40,11 @@
  
  .addres__link {
   @extend %reset-link;
+  @include justFlex(flex);
+  @include fonts(14px, 24px);
 
-   display: flex;
    margin-top: 9px;
    font-style: normal;
-   font-size: 14px;
-   line-height: calc(24 / 14);
-   letter-spacing: 0.03em;
    color: rgba(255, 255, 255, 0.6);
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

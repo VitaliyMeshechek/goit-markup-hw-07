@@ -1,7 +1,7 @@
 .project {
   @extend %reset-list;
+  @include justFlex(flex);
   
-   display: flex;
    flex-wrap: wrap;
    gap: var(--indent);
    margin-top: 0;
